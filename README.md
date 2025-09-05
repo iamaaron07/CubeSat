@@ -1,22 +1,22 @@
-# 🚀 CubeSat Power System Simulation
+#  CubeSat Power System Simulation
 
 This project simulates the **CubeSat Electrical Power System (EPS)** in **CircuitJS**.  
 The goal is to model how a CubeSat manages power during **sunlight** and **eclipse** cycles, focusing on **battery charging/discharging**, **solar input**, and **load behavior**.
 
 ---
 
-## 📌 Problem Statement
+##  Problem Statement
 
 A CubeSat orbits Earth and experiences:
 
-- 🌞 **Sunlight Phase (60 min):** Solar panels supply power to electronics and charge the battery.  
-- 🌑 **Eclipse Phase (30 min):** No solar input; the battery discharges to keep the system alive.  
+-  Sunlight Phase (60 min):** Solar panels supply power to electronics and charge the battery.  
+-  Eclipse Phase (30 min):** No solar input; the battery discharges to keep the system alive.  
 
 The simulation should demonstrate how **battery voltage, current, and charge evolve** over multiple orbital cycles.
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 - Calculate **solar input**, **battery behavior**, and **load requirements**.  
 - Build the CubeSat EPS circuit in **CircuitJS**.  
@@ -25,7 +25,7 @@ The simulation should demonstrate how **battery voltage, current, and charge evo
 
 ---
 
-## 📚 Resources
+## Resources
 
 - [Perplexity Research](https://www.perplexity.ai/search/1-create-the-power-bus-battery-3ibTwQCeSNWhAU1CQkboBg)  
 - [ChatGPT Discussion 1](https://chatgpt.com/share/68baead2-6dcc-8011-a4df-5c1401fee842)  
@@ -34,7 +34,7 @@ The simulation should demonstrate how **battery voltage, current, and charge evo
 
 ---
 
-## ⚡ Circuit Description
+##  Circuit Description
 
 ### 🔹 Input Source
 - DC/AC voltage source.  
@@ -72,7 +72,7 @@ The simulation should demonstrate how **battery voltage, current, and charge evo
 
 ---
 
-## 🚧 Failures & Fixes
+##  Failures & Fixes
 
 1. **Current Source Limitation**  
    - ❌ Only DC current supported.  
@@ -88,7 +88,7 @@ The simulation should demonstrate how **battery voltage, current, and charge evo
 
 ---
 
-## 🔍 Troubleshooting Approach
+##  Troubleshooting Approach
 
 - Isolate **battery**, **solar input**, and **load** subcircuits.  
 - Document **expected vs actual waveforms**.  
