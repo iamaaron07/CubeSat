@@ -1,3 +1,4 @@
+<img width="1996" height="1060" alt="Circuit Cubesat -Aaron" src="https://github.com/user-attachments/assets/b01d6d6a-4b93-4454-8ee4-568a0d484b55" />
 
 Even after putting the circuit together carefully, the expected outputs and waveforms aren’t showing 
 up. This is usually due to a mix of common simulation and design issues: 
