@@ -1,0 +1,27 @@
+The design and development of the CubeSat Electrical Power System (EPS) project was primarily 
+driven by my own knowledge, research, and problem-solving abilities. I systematically approached 
+the problem by carefully reviewing project requirements and using my understanding of electrical 
+circuits, satellite power systems, and simulation tools to build the model. 
+At various points during the project, AI was used primarily as a supportive guide to sharpen my 
+focus, clarify technical details, and confirm best practices. Specifically, AI helped me: 
+ Validate the choice of component values such as battery internal resistance, solar input 
+representation, and realistic load resistances calculated from power requirements. 
+ Understand the appropriate use of pulse and piecewise linear sources for accurately 
+simulating orbital sun/eclipse periods. 
+ Navigate CircuitJS nuances, especially how to implement timed switching loads using 
+MOSFETs or analog switches controlled by square wave voltages. 
+ Troubleshoot issues including connections, switch control logic, and waveform generation 
+parameters. 
+Importantly, the AI acted as an advisor, providing suggestions and explanations while I made the 
+f
+ Final decisions, adapted the circuit, and corrected errors based on simulation behavior. This 
+collaboration allowed me to save time by avoiding common pitfalls and enhanced the accuracy and 
+completeness of the EPS model. 
+In summary, the core insights, planning, and design were driven by me, with AI playing a crucial role 
+as an intelligent assistant that kept me aligned with project goals and provided instant access to 
+technical knowledge I could apply effectively. 
+Attached below are the AI resources I have used – 
+Perplexity - https://www.perplexity.ai/search/1-create-the-power-bus-battery
+3ibTwQCeSNWhAU1CQkboBg 
+Chatgpt -1) https://chatgpt.com/share/68baead2-6dcc-8011-a4df-5c1401fee842 
+2) https://chatgpt.com/share/68baebf5-8a54-8011-be25-c734e30d009a
